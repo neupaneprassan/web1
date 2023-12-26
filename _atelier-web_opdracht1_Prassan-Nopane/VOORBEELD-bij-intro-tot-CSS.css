@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 20px;
+	padding: 0;
+	}
+
+h1 {
+	color: #333;
+	}
+
+p {
+	color: #666;
+	}
+
+.highlight {
+	background-color: yellow;
+	}
+
+/* Creëer je eigen, NIEUWE stylesheet voor de opdracht. 
++++++Dit is slechts als VOORBEELD ter introductie+++++  */

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 14px;/*dit is de rootwaarde van de lettertype*/
+	margin: 20%; /*deze eigenschap maakt deel uit van het box model*/
+	background-color: #FDEED8;
+	color:#6D4530;/* kleur lettertype*/
+	
+		
+}
+
+#siu{
+	background-color: 
+}
+
+a{
+	text-decoration: none;
+	color:#6D4530;
+	font-size: 20px;
+	margin-right: 10px;
+}
+nav {margin-bottom: 30px;
+}
+section{
+	margin-top: 30px;
+}
+
+h2{
+	background-color:#E2BA73;
+	text-align: center;
+	border-radius: 1rem;
+	
+	
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: din-2014, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	color: #31251F;
+	
+}
+
+h1 {
+	text-align: center; 
+	font-size: 2.5rem; /*deze relatieve waarde staat in verhouding tot de lettertype van de root, hier gedefinieerd in de css regel van de body. In dit geval 2.5x14px */
+}
+
+
+
+h2, h3, h4, h5, h6 {
+	color: #AB8E66;
+	
+}
+
+p, img, ul, ol,dl {
+	max-width: 1200px;
+	
+}
+
+
+strong {
+	font-family: din-2014, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+em {
+	font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+	
+}
+
+mark {
+	background-color: chartreuse; 
+}
+
+figure {
+	margin-left: 0;
+	max-width: 600px;
+}
+
+figcaption {
+	font-size: 0.75rem;
+}
+/*de staten van een link moeten in deze volgorde: link, visited, hoever, active. Ezelsbruggetje: love hate*/
+
+a:link{
+	/*deze pseudo-selector (:link) staat voor de link in de ooorspronkelijke staat*/
+	color:black;
+
+}
+
+a:visited‹{
+	color:saddlebrown;
+}
+
+a:hover {
+	color:sandybrown
+}
+
+a:active {
+	text-decoration: none;
+}
+
+hr {
+	background-color: crimson;
+}
+
+footer {
+	font-size: 0.75rem; 
+}
+
+img {
+	max-width: 600px;
+}

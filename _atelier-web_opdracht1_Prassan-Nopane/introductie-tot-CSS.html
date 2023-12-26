@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--Dit HTML-document bevat een eenvoudige uitleg over CSS in drie secties: "Wat is CSS?", "Hoe gebruik je CSS?" en "Voorbeeld van CSS-gebruik". Het toont ook voorbeelden van stijlbladen en een voorbeeld van een klasse met een specifieke stijl.
+
+Pas de inhoud aan naar behoefte en voeg meer details toe om het uitgebreider te maken.-->
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+ 	<title>Introductie tot CSS</title>
+	<link href="VOORBEELD-bij-intro-tot-CSS.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/mxd3qez.css">
+	<!-- deze voorbeeld - stylesheet is ter demonstratie, zal vervang worden door mijn stijlen -->
+	<link href="MIJNSTIJLEN.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+	<!--- hier komt de titel vd site en de en navigatie --->
+	<h1> Hier de titel va</h1>
+	<nav>
+		<a href="index.html" tabindex="1" title="Naar de homepage">HOME</a>
+		<a href="introductie-tot-HTML.html" tabindex="1" title="Naar de Homepage">HTML</a>
+
+		
+	</nav>
+</header>
+	
+	<main>
+		<section>
+			<h2>Wat is CSS?</h2>
+			<p>CSS staat voor Cascading Style Sheets. Het is een opmaaktaal die wordt gebruikt om de presentatie (zoals lay-out, kleuren, lettertypen, enz.) van een HTML-document te controleren. Met CSS kunnen webontwikkelaars de vormgeving van elementen op een webpagina aanpassen en stijlen toepassen om de uitstraling van de inhoud te verbeteren.</p>
+		</section>
+		
+		<section>
+			<h2>Hoe gebruik je CSS?</h2>
+			<p>Er zijn verschillende manieren om CSS toe te passen:</p>
+			<ol>
+		 		<li><strong>Externe stijlbladen:</strong> Een apart CSS-bestand maken met de extensie .css en dit bestand koppelen aan het HTML-document met behulp van het <code>&lt;link&gt;</code>-element.<br/> Deze methode is het meest aangewezen bij het creëren van een site.</li>
+				<li><strong>Interne stijlbladen:</strong> Stijlen toevoegen binnen de <code>&lt;style&gt;</code>-tags in de <code>&lt;head&gt;</code> van het HTML-document.<br/> Deze methode gebruik je uitzonderlijk als de stijlen enkel en alleen voor dàt HTML-document gelden.</li>
+				<li><strong>Inline-stijlen:</strong> Stijlen rechtstreeks toevoegen aan HTML-elementen met het 'style'-attribuut. Dit wordt hoofdzakelijk en bij voorkeur aangewend door andere programmeertalen, zoals Javascript, om een (tijdelijke) stijl toe te voegen aan een HTML element in een bepaalde situatie. Een webdesigner gebruikt deze methode best niet, of hoogstens bij uitzondering, wanneer het design wordt omgezet in HTML/CSS.</li>
+			</ol>
+			<p>Hier is een voorbeeld van het gebruik van een interne stijlblad:</p>
+			<pre>
+				<code>
+					&lt;style&gt;
+						body {
+							font-family: Arial, sans-serif;
+							color: #333;
+						}
+						/* Voeg meer stijlen toe */
+					&lt;/style&gt;
+				</code>
+			</pre>
+		</section>
+
+		<section>
+			<h2>Voorbeeld van CSS-gebruik</h2>
+			<p>Dit is een voorbeeld van een paragraaf met een speciale klasse die is gemarkeerd met een gele achtergrondkleur:</p>
+			<p class="highlight">Dit is een paragraaf met de klasse "highlight".</p>
+		</section>
+	</main>
+	
+	<hr/>
+	
+	<footer>
+		<small>&copy; 2023 Prassan Nopane — &amp; with a lil' help from chatGPT 3.5, here and there...</small>
+	</footer>
+</body>
+</html>
